@@ -15,6 +15,7 @@ import TajMahal3 from '../../Images/TajMahalroom3.jpg';
 import TajMahal4 from '../../Images/TajMahalroom4.jpg';
 import TajMahal5 from '../../Images/TajMahalroom5.jpg';
 import TajMahal6 from '../../Images/TajMahalroom6.jpg';
+import Footer from '../../components/footer/Footer';
 import './hotel.css';
 
 const Hotel = () => {
@@ -134,6 +135,7 @@ const Hotel = () => {
           </div>
         </div>
         <MailList />
+        <Footer />
       </div>
     </div>
   );

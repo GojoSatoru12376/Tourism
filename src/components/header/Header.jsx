@@ -51,6 +51,9 @@ const Header = ({ type }) => {
       };
     });
   };
+ const handleSearch = () => {
+    navigate('/hotels', { state: { destination, date, options } });
+  };
 
   return (
     <div className="header">
@@ -184,7 +187,7 @@ const Header = ({ type }) => {
                 )}
               </div>
               <div className="headerSearchItem">
-                <button className="headerButton">Search</button>
+                <button className="headerButton" onClick={handleSearch}>Search</button>
               </div>
             </div>{' '}
           </>

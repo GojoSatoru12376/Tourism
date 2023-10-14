@@ -17,9 +17,6 @@ const TouristPlaceInfo = () => {
         <AndhraPradeshInfo />
         <BiharInfo />
         <GoaInfo />
-        <Gujarat />
-        <HimachalPradeshInfo />
-        <Karnataka />
       </div>
     </div>
   );

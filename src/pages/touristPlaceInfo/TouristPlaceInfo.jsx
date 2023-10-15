@@ -10,6 +10,9 @@ import Karnataka from '../../components/attractionPages/Karnataka';
 import Manipur from '../../components/attractionPages/Manipur';
 import Maharashtra from '../../components/attractionPages/Maharashtra';
 import Nagaland from '../../components/attractionPages/Nagaland';
+import Odisha from '../../components/attractionPages/Odisha';
+import Rajasthan from '../../components/attractionPages/Rajasthan';
+import TamilNadu from '../../components/attractionPages/TamilNadu';
 
 const TouristPlaceInfo = () => {
   return (
@@ -25,6 +28,9 @@ const TouristPlaceInfo = () => {
         <Maharashtra />
         <Manipur />
         <Nagaland />
+        <Odisha />
+        <Rajasthan />
+        <TamilNadu />
         <Karnataka />
       </div>
     </div>

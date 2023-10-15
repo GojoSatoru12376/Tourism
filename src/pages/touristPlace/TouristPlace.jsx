@@ -1,6 +1,7 @@
 import Attraction from '../../components/attraction/Attraction';
 import Attraction1 from '../../components/attraction/Attraction1';
 import Attraction2 from '../../components/attraction/Attraction2';
+import Attraction3 from '../../components/attraction/Attraction3';
 import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header';
 import MailList from '../../components/mailList/MailList';
@@ -16,6 +17,7 @@ const Home = () => {
         <Attraction />
         <Attraction1 />
         <Attraction2 />
+        <Attraction3 />
         <MailList />
         <Footer />
       </div>

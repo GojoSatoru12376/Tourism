@@ -17,6 +17,8 @@ import Nagaland from './components/attractionPages/Nagaland';
 import Odisha from './components/attractionPages/Odisha';
 import Rajasthan from './components/attractionPages/Rajasthan';
 import TamilNadu from './components/attractionPages/TamilNadu';
+import Tripura from "./components/attractionPages/Tripura";
+import UttarPradesh from "./components/attractionPages/UttarPradesh";
 
 function App() {
   return (
